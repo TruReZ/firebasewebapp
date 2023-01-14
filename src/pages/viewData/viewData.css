@@ -1,0 +1,142 @@
+.editData{
+  display: flex;
+  width: 100%;
+}
+.editDataContainer{
+  flex: 7;
+}
+
+.form-viewData{
+  width: 80%;
+  margin: 20px;
+  color: rgb(121, 121, 121);
+}
+
+.form-viewData label{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 70px;
+}
+
+.form-viewData input{
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  margin-left: 70px;
+  margin-top: 10px;
+  
+}
+
+.buttonview{
+  width: 150px;
+  padding:15px;
+  border: none;
+  background-color: #EF233C;
+  color: white;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 44%;
+  
+}   
+
+.topview ,.bottomview{
+  -webkit-box-shadow: 3px -4px 21px -7px rgba(0,0,0,0.69); 
+  box-shadow: 3px -4px 21px -7px rgba(0,0,0,0.69);
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+}
+
+.topview h1{
+  color: gray;
+  font-size: 25px;
+}
+
+.rightview{
+  flex: 2;
+  justify-content: space-around;
+  
+}
+
+.right-view from{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.from-view{
+  -webkit-box-shadow: 3px -4px 21px -7px rgba(0,0,0,0.69); 
+  box-shadow: 3px -4px 21px -7px rgba(0,0,0,0.69);
+  width: 500px;
+  padding: 25px;
+  margin: 25px;
+}
+
+.formInput-view{
+  width: 80%;
+  margin: 20px;
+  color: rgb(121, 121, 121);
+}
+
+.formInput-view label{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 70px;
+}
+
+.formInput-view input{
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  margin-left: 70px;
+  margin-top: 10px;
+  
+}
+
+.button-view{
+  width: 150px;
+  padding:15px;
+  border: none;
+  background-color: #EF233C;
+  color: white;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 44%;
+}   
+
+.table-view{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.link-TableView{
+  text-decoration: none;
+    color: orange;
+    font-size: 16px;
+    font-weight: 400px;
+    border: 1px solid orange ;
+    padding: 5px;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+
+.table-data{
+  margin-top: 20px;
+}
+
+.link-addUser{
+  color: orange;
+}
+
+.table-data th{
+  padding: 20px;
+}
+
+.table-data button{
+  padding: 10px 20px 10px 20px;
+}

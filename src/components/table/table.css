@@ -1,0 +1,15 @@
+.refresh {
+  padding-bottom: 20px;
+}
+.edit,
+.delete {
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+.edit {
+  margin-right: 5px;
+}
+tr {
+  text-align: center;
+}

@@ -1,0 +1,151 @@
+.editData{
+    display: flex;
+    width: 100%;
+}
+.editDataContainer{
+    flex: 7;
+}
+
+.formeditData{
+    width: 80%;
+    margin: 20px;
+    color: rgb(121, 121, 121);
+}
+
+.formeditData label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 70px;
+}
+
+.formeditData input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+    margin-left: 70px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.button-editData{
+    width: 150px;
+    padding:15px;
+    border: none;
+    background-color: #EF233C;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 44%;
+    
+}   
+
+.top-editData ,.bottom-editData{
+    -webkit-box-shadow: 3px -4px 21px -7px rgba(0,0,0,0.69); 
+    box-shadow: 3px -4px 21px -7px rgba(0,0,0,0.69);
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+
+.top-editData h1{
+    color: gray;
+    font-size: 25px;
+}
+
+.right-edit{
+    flex: 2;
+    justify-content: space-around;
+    
+}
+
+.right-edit from{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.from-edit{
+    -webkit-box-shadow: 3px -4px 21px -7px rgba(0,0,0,0.69); 
+    box-shadow: 3px -4px 21px -7px rgba(0,0,0,0.69);
+    padding: 25px;
+    margin: 25px;
+}
+
+.formInput-edit{
+    width: 80%;
+    margin: 20px;
+    color: rgb(121, 121, 121);
+}
+
+.formInput-edit label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 70px;
+}
+
+.formInput-edit input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+    margin-left: 70px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.button-edit{
+    margin-left: 45%;
+    width: 200px;
+    height: 50px;
+    color: rgb(0, 196, 33);
+    border:1px solid rgb(0, 196, 33);
+    background-color: #2b2d4200;
+    border-radius: 5px;
+}   
+
+.button-edit:hover{
+    margin-left: 45%;
+    width: 200px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border:1px solid rgb(0, 196, 33);
+    background-color: rgb(0, 196, 33);
+    border-radius: 5px;
+}   
+
+.book-table{
+    margin-left: "20px";
+}
+
+.edit-role{
+    padding-right: 250px;
+    margin-top: 10px;
+    color: rgb(121, 121, 121);
+    cursor: pointer;
+    background-color: #2b2d4200;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+    margin-left: 70px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 1110px;
+    color: rgb(121, 121, 121);
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.edit-table th{
+    padding: 20px;
+}
+
+.edit-table button{
+    padding: 10px 20px 10px 20px;
+}
